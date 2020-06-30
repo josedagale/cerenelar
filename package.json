@@ -1,0 +1,16 @@
+{
+  "name": "paginacer",
+  "version": "1.0.0",
+  "description": "Proyecto Web que servirá como centro de entrenmiento del equipo operativo de Enelar E.S.P",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "capacitacion",
+    "entrenamiento",
+    "enelar"
+  ],
+  "author": "cer",
+  "license": "MIT"
+}

@@ -1,0 +1,28 @@
+//  ______ _   _ _____ _____ _____ _   _  _____
+//  | ___ \ | | |_   _|_   _|  _  | \ | |/  ___|
+//  | |_/ / | | | | |   | | | | | |  \| |\ `--.
+//  | ___ \ | | | | |   | | | | | | . ` | `--. \
+//  | |_/ / |_| | | |   | | \ \_/ / |\  |/\__/ /
+//  \____/ \___/  \_/   \_/  \___/\_| \_/\____/
+//
+
+.button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: 300ms;
+  &:hover {
+    transform: scale(0.95);
+  }
+}
+
+.main-button {
+  width: 60%;
+  margin: 0 auto;
+  padding: 0.3em 0;
+  border-radius: 40px;
+  background-color: $main-color;
+  color: $light-color;
+  font-size: 1.5em;
+}

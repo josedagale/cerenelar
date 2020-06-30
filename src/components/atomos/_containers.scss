@@ -1,0 +1,65 @@
+//   _____ _____ _   _ _____ ___  _____ _   _  ___________  _____
+//  /  __ \  _  | \ | |_   _/ _ \|_   _| \ | ||  ___| ___ \/  ___|
+//  | /  \/ | | |  \| | | |/ /_\ \ | | |  \| || |__ | |_/ /\ `--.
+//  | |   | | | | . ` | | ||  _  | | | | . ` ||  __||    /  `--. \
+//  | \__/\ \_/ / |\  | | || | | |_| |_| |\  || |___| |\ \ /\__/ /
+//   \____/\___/\_| \_/ \_/\_| |_/\___/\_| \_/\____/\_| \_|\____/
+//
+.index-container {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+.primary {
+  background-image: url(../../imagenes/torre.jpeg);
+  background-size: 100%;
+  background-position-y: -30px;
+}
+.hero {
+  height: calc(50vh - 130px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  h2 span {
+    font-size: 1.5em;
+  }
+}
+.container {
+  margin-top: $space;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  span {
+    color: $main-color;
+  }
+  .nav-cursos {
+    margin: $space;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .carousel {
+    width: 100%;
+    overflow: auto;
+    position: relative;
+    scroll-behavior: smooth;
+    margin-bottom: $space;
+    &-container {
+      white-space: nowrap;
+      padding-bottom: 10px;
+    }
+  }
+  .carousel::-webkit-scrollbar {
+    height: 7px;
+    width: 7px;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .carousel::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+  }
+}

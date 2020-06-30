@@ -1,0 +1,448 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-color {
+  color: #f8bf50;
+}
+.main-color_background {
+  background-color: #f8bf50;
+}
+
+.second-color {
+  color: #c39842;
+}
+.second-color_background {
+  background-color: #c39842;
+}
+
+.light-color {
+  color: #ffffff;
+}
+.light-color_background {
+  background-color: #ffffff;
+}
+
+.error-color {
+  color: #c34242;
+}
+.error-color_background {
+  background-color: #c34242;
+}
+
+.success-color {
+  color: #32de98;
+}
+.success-color_background {
+  background-color: #32de98;
+}
+
+.alert-color {
+  color: #ffef14;
+}
+.alert-color_background {
+  background-color: #ffef14;
+}
+
+.text-color {
+  color: #707070;
+}
+.text-color_background {
+  background-color: #707070;
+}
+
+body,
+html {
+  font-family: "Open Sans", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: #707070;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.brand-title {
+  color: #f8bf50;
+}
+
+.light-title {
+  color: #ffffff;
+}
+
+.huge-letter {
+  font-size: 50px;
+}
+
+p,
+a,
+.normal {
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.small {
+  font-size: 10px;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+a {
+  color: #c39842;
+  text-decoration: none;
+  transition: 200ms;
+}
+a:hover {
+  text-decoration: underline;
+  transform: scale(1.1);
+}
+
+.spaced {
+  padding: 10px;
+}
+
+.space {
+  padding: 10px;
+}
+.space_margin {
+  margin: 10px;
+}
+.space_top {
+  padding-top: 10px;
+}
+.space_top_margin {
+  margin-top: 10px;
+}
+.space_bottom {
+  padding-top: 10px;
+}
+.space_bottom_margin {
+  margin-bottom: 10px;
+}
+.space_left {
+  padding-top: 10px;
+}
+.space_left_margin {
+  margin-left: 10px;
+}
+.space_right {
+  padding-top: 10px;
+}
+.space_right_margin {
+  margin-right: 10px;
+}
+
+.space_2 {
+  padding: 20px;
+}
+.space_2_margin {
+  margin: 20px;
+}
+.space_2_top {
+  padding-top: 20px;
+}
+.space_2_top_margin {
+  margin-top: 20px;
+}
+.space_2_bottom {
+  padding-top: 20px;
+}
+.space_2_bottom_margin {
+  margin-bottom: 20px;
+}
+.space_2_left {
+  padding-top: 20px;
+}
+.space_2_left_margin {
+  margin-left: 20px;
+}
+.space_2_right {
+  padding-top: 20px;
+}
+.space_2_right_margin {
+  margin-right: 20px;
+}
+
+.space_3 {
+  padding: 30px;
+}
+.space_3_margin {
+  margin: 30px;
+}
+.space_3_top {
+  padding-top: 30px;
+}
+.space_3_top_margin {
+  margin-top: 30px;
+}
+.space_3_bottom {
+  padding-top: 30px;
+}
+.space_3_bottom_margin {
+  margin-bottom: 30px;
+}
+.space_3_left {
+  padding-top: 30px;
+}
+.space_3_left_margin {
+  margin-left: 30px;
+}
+.space_3_right {
+  padding-top: 30px;
+}
+.space_3_right_margin {
+  margin-right: 30px;
+}
+
+.space_4 {
+  padding: 40px;
+}
+.space_4_margin {
+  margin: 40px;
+}
+.space_4_top {
+  padding-top: 40px;
+}
+.space_4_top_margin {
+  margin-top: 40px;
+}
+.space_4_bottom {
+  padding-top: 40px;
+}
+.space_4_bottom_margin {
+  margin-bottom: 40px;
+}
+.space_4_left {
+  padding-top: 40px;
+}
+.space_4_left_margin {
+  margin-left: 40px;
+}
+.space_4_right {
+  padding-top: 40px;
+}
+.space_4_right_margin {
+  margin-right: 40px;
+}
+
+.space_5 {
+  padding: 50px;
+}
+.space_5_margin {
+  margin: 50px;
+}
+.space_5_top {
+  padding-top: 50px;
+}
+.space_5_top_margin {
+  margin-top: 50px;
+}
+.space_5_bottom {
+  padding-top: 50px;
+}
+.space_5_bottom_margin {
+  margin-bottom: 50px;
+}
+.space_5_left {
+  padding-top: 50px;
+}
+.space_5_left_margin {
+  margin-left: 50px;
+}
+.space_5_right {
+  padding-top: 50px;
+}
+.space_5_right_margin {
+  margin-right: 50px;
+}
+
+.index-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 130px;
+  margin: 0 auto;
+}
+.index-header .image-container {
+  width: 115px;
+}
+.index-header .image-container img {
+  width: 100%;
+}
+.index-header span {
+  color: #f8bf50;
+  font-size: 3em;
+  cursor: pointer;
+}
+
+.anuncio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5em;
+}
+.anuncio img {
+  width: 70px;
+  margin-bottom: 1em;
+}
+.anuncio p {
+  margin: 0;
+}
+
+.card-curso {
+  width: 160px;
+  margin: 10px;
+  border: 1px solid #f8bf50;
+  border-radius: 10px;
+  overflow: hidden;
+  display: inline-block;
+  color: #707070;
+  transform-origin: left;
+  cursor: pointer;
+}
+.card-curso img {
+  width: 100%;
+}
+.card-curso .curso-description {
+  padding: 10px;
+}
+.card-curso h3,
+.card-curso p {
+  margin: 0;
+}
+
+.data p {
+  margin: 0;
+}
+
+.button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: 300ms;
+}
+.button:hover {
+  transform: scale(0.95);
+}
+
+.main-button {
+  width: 60%;
+  margin: 0 auto;
+  padding: 0.3em 0;
+  border-radius: 40px;
+  background-color: #f8bf50;
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+.index-container {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.primary {
+  background-image: url(../../imagenes/torre.jpeg);
+  background-size: 100%;
+  background-position-y: -30px;
+}
+
+.hero {
+  height: calc(50vh - 130px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.hero h2 span {
+  font-size: 1.5em;
+}
+
+.container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container span {
+  color: #f8bf50;
+}
+.container .nav-cursos {
+  margin: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container .carousel {
+  width: 100%;
+  overflow: auto;
+  position: relative;
+  scroll-behavior: smooth;
+  margin-bottom: 10px;
+}
+.container .carousel-container {
+  white-space: nowrap;
+  padding-bottom: 10px;
+}
+.container .carousel::-webkit-scrollbar {
+  height: 7px;
+  width: 7px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.container .carousel::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.search-container {
+  width: 90%;
+  position: relative;
+}
+.search-container span {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  color: #f8bf50;
+}
+.search-container .searchbar {
+  width: 100%;
+  height: 40px;
+  padding-left: 40px;
+  border-radius: 40px;
+  color: #707070;
+  font-size: 1.1em;
+  border: 2px solid #707070;
+  outline: none;
+}

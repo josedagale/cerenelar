@@ -1,0 +1,48 @@
+//    ___   _   _ _   _ _   _ _____ _____ _____ _____
+//   / _ \ | \ | | | | | \ | /  __ \_   _|  _  /  ___|
+//  / /_\ \|  \| | | | |  \| | /  \/ | | | | | \ `--.
+//  |  _  || . ` | | | | . ` | |     | | | | | |`--. \
+//  | | | || |\  | |_| | |\  | \__/\_| |_\ \_/ /\__/ /
+//  \_| |_/\_| \_/\___/\_| \_/\____/\___/ \___/\____/
+//
+
+.anuncio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5em;
+  img {
+    width: 70px;
+    margin-bottom: 1em;
+  }
+  p {
+    margin: 0;
+  }
+}
+.card-curso {
+  width: 160px;
+  margin: $space;
+  border: 1px solid $main-color;
+  border-radius: $border-radius;
+  overflow: hidden;
+  display: inline-block;
+  color: $text-color;
+  transform-origin: left;
+  cursor: pointer;
+  img {
+    width: 100%;
+  }
+  .curso-description {
+    padding: $space;
+  }
+  h3,
+  p {
+    margin: 0;
+  }
+}
+
+.data {
+  p {
+    margin: 0;
+  }
+}

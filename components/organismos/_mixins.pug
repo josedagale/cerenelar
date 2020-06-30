@@ -1,0 +1,22 @@
+mixin anuncios(img, title, description)
+  .anuncio
+    img(src= img, alt= title)
+    p.bold= title 
+    p= description
+
+mixin cursoCard(img, title, description, url)
+  a(href= url).card-curso 
+    img(src= img, alt= title)
+    .curso-description 
+      h3= title 
+      p= description 
+
+mixin datos(num, description)
+  .data
+    h1.huge-letter.bold.main-color= num 
+    p= description
+
+mixin section(title, img, url)
+  a(href= url).container.container-section
+    h3= title 
+    img(src= img, alt= title)

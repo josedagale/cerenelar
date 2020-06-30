@@ -1,0 +1,26 @@
+//   _   _  _____  ___ ______ ___________  _____
+//  | | | ||  ___|/ _ \|  _  \  ___| ___ \/  ___|
+//  | |_| || |__ / /_\ \ | | | |__ | |_/ /\ `--.
+//  |  _  ||  __||  _  | | | |  __||    /  `--. \
+//  | | | || |___| | | | |/ /| |___| |\ \ /\__/ /
+//  \_| |_/\____/\_| |_/___/ \____/\_| \_|\____/
+
+.index-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 130px;
+  margin: 0 auto;
+  .image-container {
+    width: 115px;
+    img {
+      width: 100%;
+    }
+  }
+  & span {
+    color: $main-color;
+    font-size: 3em;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,26 @@
+extends ../organismos/_head.pug 
+include ../organismos/_mixins.pug
+block title
+  |Cer/iniciar sesion
+block content
+  .main-container
+    .container
+      .sprite-container: img(src="../../../Logo/logos-01.png", alt="Logo cer enelar")
+      h2.light Centro de entrenamiento rápido
+      p
+        | Entrenamiento para lograr el éxito en 
+        br
+        a(href="https://enelar.com.co/") Enelar E.S.P
+    .container-row
+      +section('Mantenimiento', '../../../iconos/gear.svg', '/')
+      +section('Operación', '../../../iconos/monitor.svg', '/')
+
+    .container 
+      h1 Iniciar sesión
+      form(action="", method="post" name="inicioSesion")
+        input.text-input(type="text" placeholder="Usuario")
+        input.text-input(type="password" placeholder="Contraseña")
+        button.button.main-button.bold ¡Entrar!
+        .container-between
+          a(href="/") Cambiar contraseña
+          a(href="/") Crear usuario

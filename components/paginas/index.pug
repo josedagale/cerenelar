@@ -1,0 +1,39 @@
+extends ../organismos/_head.pug 
+include ../organismos/_mixins.pug
+block title
+  |Cer/centro entrenamiento rápido Enelar
+block content
+  .index-container.primary
+    header.index-header 
+      .image-container: img(src="Logo/logos-01.png", alt="logo centro entrenamiento rapido")
+      span.material-icons
+        |menu
+    .hero
+      h2 Centro de entrenamiento rápido <br>
+        span.main-color Enelar E.S.P
+      a.button.main-button.bold(href="iniciosesion.html") Entrar
+      .search-container
+        span.material-icons.md-36
+          |search
+        input.searchbar(type="text" placeholder="Busca un curso")
+  .index-container
+    +anuncios ('iconos/book.svg', 'Educación', 'Le apostamos a la educación')
+    +anuncios ('iconos/idea.svg', 'Calidad', 'Altos estándares del sector eléctrico')
+    +anuncios ('iconos/star.svg', 'Certificación', 'Logra las competencias para el trabajo')
+  .container 
+    h1 Cursos recientes 
+    .nav-cursos 
+      a(href="") Operación
+      a(href="") Mantenimiento 
+      a(href="") SST
+    .carousel
+      .carousel-container 
+        +cursoCard ('../../../imagenes/curso-1-web.jpg', 'Curso 1', 'Lorem ipsum dolor.', '/')
+        +cursoCard ('../../../imagenes/curso-1-web.jpg', 'Curso 2', 'Lorem ipsum dolor.', '/')
+        +cursoCard ('../../../imagenes/curso-1-web.jpg', 'Curso 3', 'Lorem ipsum dolor.', '/')
+        +cursoCard ('../../../imagenes/curso-1-web.jpg', 'Curso 4', 'Lorem ipsum dolor.', '/')
+  .container 
+    h2 Formamos a los mejores <br/> trabajadores del <span> sector eléctrico</span>
+    +datos ('230', 'Estudiantes')
+    +datos ('20', 'Cursos en línea')
+    +datos ('10', 'Personas certificadas')

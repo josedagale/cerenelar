@@ -325,7 +325,7 @@ a:hover {
   justify-self: end;
   border-radius: 50%;
   border: 1px solid #f8bf50;
-  background-image: url(../../imagenes/perfil.jpeg);
+  background-image: url(../imagenes/perfil.jpeg);
   background-size: cover;
   background-position: center;
   margin: 0;
@@ -604,15 +604,15 @@ a:hover {
 }
 
 .seccion-operacion {
-  background-image: url(../../imagenes/centro-de-control-web.jpg);
+  background-image: url(../imagenes/centro-de-control-web.jpg);
 }
 
 .seccion-mantenimiento {
-  background-image: url(../../imagenes/subestacion-web.jpg);
+  background-image: url(../imagenes/subestacion-web.jpg);
 }
 
 .seccion-sst {
-  background-image: url(../../imagenes/sst-curso-web.jpg);
+  background-image: url(../imagenes/sst-curso-web.jpg);
 }
 
 .video-container {

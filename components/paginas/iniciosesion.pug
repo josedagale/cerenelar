@@ -12,15 +12,15 @@ block content
         br
         a(href="https://enelar.com.co/") Enelar E.S.P
     .container-row
-      +section('Mantenimiento', 'iconos/gear.svg', '/')
-      +section('Operación', 'iconos/monitor.svg', '/')
+      +section('Mantenimiento', 'iconos/gear.svg', 'mantenimiento.html')
+      +section('Operación', 'iconos/monitor.svg', 'operacion.html')
 
     .container 
       h1 Iniciar sesión
-      form(action="", method="post" name="inicioSesion")
+      form.form-container(action="", method="post" name="inicioSesion")
         input.text-input(type="text" placeholder="Usuario")
         input.text-input(type="password" placeholder="Contraseña")
-        button.button.main-button.bold ¡Entrar!
+        a.button.main-button.bold(href="seleccion.html") ¡Entrar!
         .container-between
           a(href="/") Cambiar contraseña
-          a(href="/") Crear usuario
+          a(href="crearUsuario.html") Crear usuario

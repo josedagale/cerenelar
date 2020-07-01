@@ -4,8 +4,8 @@ mixin anuncios(img, title, description)
     p.bold= title 
     p= description
 
-mixin cursoCard(img, title, description, url)
-  a(href= url).card-curso 
+mixin cursoCard(img, title, description)
+  a(href= "curso.html").card-curso 
     img(src= img, alt= title)
     .curso-description 
       h3= title 
@@ -20,3 +20,15 @@ mixin section(title, img, url)
   a(href= url).container.container-section
     h3= title 
     img(src= img, alt= title)
+
+mixin headerCurso(title)
+  .header-curso 
+    h2= title 
+    span.material-icons
+      |search
+
+mixin comment(img, user, text)
+  .comment 
+    img(src= img, alt= user)
+    h3= user 
+    p= text

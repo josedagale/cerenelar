@@ -24,3 +24,31 @@
     cursor: pointer;
   }
 }
+.header-curso {
+  display: grid;
+  grid-template-columns: 1fr 60px 60px;
+  margin: $space;
+  height: 61px;
+  padding-left: 20px;
+  border: 1px solid $main-color;
+  border-radius: 100px;
+  box-sizing: border-box;
+  .material-icons {
+    align-self: center;
+    justify-self: center;
+  }
+  &::after {
+    content: "";
+    width: 60px;
+    height: 60px;
+    align-self: center;
+    justify-self: end;
+    border-radius: 50%;
+    border: 1px solid $main-color;
+    background-image: url(../../imagenes/perfil.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    box-sizing: border-box;
+  }
+}

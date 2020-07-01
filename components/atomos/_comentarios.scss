@@ -1,0 +1,20 @@
+.comment {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  grid-template-rows: 40px 1fr;
+  grid-gap: $space;
+  padding-bottom: $space;
+  padding-right: $space;
+  margin-bottom: $space;
+  border: 1px solid $text-color;
+  border-radius: 20px;
+  img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  p {
+    grid-column: 2/3;
+  }
+}

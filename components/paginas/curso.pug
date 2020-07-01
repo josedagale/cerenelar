@@ -1,0 +1,24 @@
+extends ../organismos/_head.pug 
+include ../organismos/_mixins.pug
+block title
+  |Cer/Curso
+block content
+  +headerCurso('Curso')
+  .video-container
+    iframe(width='1280' height='720' src='https://www.youtube.com/embed/T-_qPK7YGco' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='')
+  .curso-info
+    h2 Curso 1
+    .curso-title
+      h3.light Profesor: Jose Luis Garzón
+      .button.hard Dificil
+    .curso-title
+      a.button.info(href="/") Clases
+      a.button.info(href="/") Comentarios
+      a.button.info(href="/") Preguntas
+    +comment('../../imagenes/perfil.jpeg', 'Juan García', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis mollis rutrum. Nam et odio vitae lacus posuere efficitur id nec dui. Maecenas sit amet sapien faucibus, facilisis quam id, bibendum dolor.')
+    +comment('../../imagenes/perfil.jpeg', 'Juan García', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis mollis rutrum. Nam et odio vitae lacus posuere efficitur id nec dui. Maecenas sit amet sapien faucibus, facilisis quam id, bibendum dolor.')
+    +comment('../../imagenes/perfil.jpeg', 'Juan García', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis mollis rutrum. Nam et odio vitae lacus posuere efficitur id nec dui. Maecenas sit amet sapien faucibus, facilisis quam id, bibendum dolor.')
+    +comment('../../imagenes/perfil.jpeg', 'Juan García', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis mollis rutrum. Nam et odio vitae lacus posuere efficitur id nec dui. Maecenas sit amet sapien faucibus, facilisis quam id, bibendum dolor.')
+    +comment('../../imagenes/perfil.jpeg', 'Juan García', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis mollis rutrum. Nam et odio vitae lacus posuere efficitur id nec dui. Maecenas sit amet sapien faucibus, facilisis quam id, bibendum dolor.')
+    +comment('../../imagenes/perfil.jpeg', 'Juan García', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis mollis rutrum. Nam et odio vitae lacus posuere efficitur id nec dui. Maecenas sit amet sapien faucibus, facilisis quam id, bibendum dolor.')
+    +comment('../../imagenes/perfil.jpeg', 'Juan García', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis mollis rutrum. Nam et odio vitae lacus posuere efficitur id nec dui. Maecenas sit amet sapien faucibus, facilisis quam id, bibendum dolor.')

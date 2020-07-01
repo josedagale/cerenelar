@@ -1,0 +1,20 @@
+extends ../organismos/_head.pug 
+block title
+  |Cer/crear usuario
+block content
+  .main-container 
+    .container 
+      .profile-image-container
+      button.button.profile-button Subir foto
+    form.form-container(action="", method="post")
+        input.text-input.data(type="text" placeholder="Nombre y apellidos")
+        input.text-input.data(type="date" placeholder="Fecha de nacimiento")
+        input.text-input.data(type="text" placeholder="Género")
+        input.text-input.data(type="text" placeholder="Proceso")
+        input.text-input.data(type="text" placeholder="Cargo")
+        input.text-input.data(type="email" placeholder="Correo electrónico")
+        input.text-input.data(type="password" placeholder="Contraseña")
+        .container-between
+          input(type="checkbox", name="terminos")
+          label(for="terminos") Acepto términos y condiciones de uso
+        a.button.main-button.bold(href="iniciosesion.html") Crear usurio

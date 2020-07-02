@@ -3,7 +3,6 @@
 @import "typo";
 
 //Colors
-
 @mixin constructor($color) {
   color: $color;
   &_background {
